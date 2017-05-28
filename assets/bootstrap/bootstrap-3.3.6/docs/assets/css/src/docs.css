@@ -189,7 +189,7 @@ h4 code {
 
 @media (min-width: 768px) {
   .bs-docs-footer {
-    text-align: left;
+    text-align: center;
   }
   .bs-docs-footer p {
     margin-bottom: 0;
