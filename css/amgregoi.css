@@ -1,7 +1,9 @@
 /* --------------------------------------------------
  * for bootstrap
  * -------------------------------------------------- */
-
+img.profile-center{
+	margin:auto;
+}
 h2 {
     font-size: 22px;
 }
@@ -29,13 +31,32 @@ div.pqrs-docs-container {
 ol.steps a.thumbnail {
     margin: 8px 0;
 }
-
+.col-lg-3-tweak {
+	.col-lg-3;
+	width:26%;
+}
 .col-show-grid {
     background-color: #f8f8f8;
     min-height: 120px;
     border-radius: 6px;
     margin: 0 5px 20px 5px;
     padding: 10px;
+}
+
+.col-show-grid-invisible {
+    min-height: 120px;
+    border-radius: 6px;
+    margin: 0 5px 20px 5px;
+    padding: 10px;
+}
+
+.col-show-grid-invisible-border {
+    min-height: 120px;
+    border-radius: 6px;
+    margin: 0 5px 20px 5px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .page-header {
